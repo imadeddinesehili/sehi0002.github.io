@@ -1,0 +1,47 @@
+/* Inheritance - Target body for font and size */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+header, footer {
+    background-color: #f0f0f0;
+    padding: 15px;
+}
+
+.site-title {
+    color: #f0f0f0;
+}
+
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
+
+.hobby-liste {
+    list-style-type: square;
+    color: black;
+}
+
+.hobby-liste li:nth-child(odd) {
+    background-color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    border: 1px solid deepskyblue;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+nav a:hover, nav a:focus {
+    background-color: yellowgreen;
+    color: white;
+}
